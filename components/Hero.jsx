@@ -21,7 +21,7 @@ export default function Hero() {
       >
 
         <motion.h1
-          className="font-nunito text-4xl text-left leading-15 mb-6"
+          className="font-nunito text-5xl text-left leading-15 mb-6"
           variants={{
             hidden: { opacity: 0, y: 60 },
             visible: { opacity: 1, y: 0 }
