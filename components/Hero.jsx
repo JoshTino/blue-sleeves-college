@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="h-180 bg-primary mt-10 p-3 flex flex-col items-center justify-center text-center text-white relative overflow-hidden"
+      className="h-180 bg-primary mt-7 p-3 flex flex-col items-center justify-center text-center text-white relative overflow-hidden"
     >
       <motion.div
         className="absolute inset-0"
@@ -27,7 +27,7 @@ export default function Hero() {
       >
 
         <motion.h1
-          className="font-nunito text-5xl text-left leading-15 mb-6"
+          className="font-nunito text-4xl text-left leading-15 mb-6"
           variants={{
             hidden: { opacity: 0, y: 60 },
             visible: { opacity: 1, y: 0 }
