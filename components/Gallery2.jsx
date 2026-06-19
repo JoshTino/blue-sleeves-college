@@ -3,9 +3,9 @@ import { X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const images = [
-  "/images/gallery4.jpg",
-  "/images/gallery5.jpg",
-  "/images/gallery6.jpg",
+  "/images/physics-lab.jpg",
+  "/images/school-gate.jpg",
+  "/images/classroom.jpg",
 ];
 
 export default function Gallery2() {

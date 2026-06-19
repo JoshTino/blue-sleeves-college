@@ -4,8 +4,8 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const images = [
   "/images/reception.jpg",
-  "/images/gallery2.jpg",
-  "/images/gallery3.jpg",
+  "/images/ict-lab.jpg",
+  "/images/tennis-court.jpg",
 ];
 
 export default function Gallery() {
