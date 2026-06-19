@@ -6,13 +6,7 @@ export default function Hero() {
       id="home"
       className="h-170 bg-primary mt-7 p-3 flex flex-col items-center justify-center text-center text-white relative overflow-hidden"
     >
-      <motion.div
-        className="absolute inset-0"
-        initial={{ scale: 1 }}
-        animate={{ scale: 1.08 }}
-        transition={{ duration: 20, repeat: Infinity, repeatType: "reverse" }}
-      />
-
+      
       <div className="flex flex-col items-center md:flex-row">
       <motion.div
         className="relative max-w-3xl  md:w-150"
@@ -79,7 +73,7 @@ export default function Hero() {
           </motion.a>
 
           <motion.a
-            href="tel:+2347077679829"
+            href="tel:07077679829"
             className="bg-green-700 font-nunito cursor-pointer text-white px-6 py-3 hover:bg-white hover:text-black"
             whileHover={{ y: -4, scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
