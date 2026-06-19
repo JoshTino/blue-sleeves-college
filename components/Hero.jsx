@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="h-180 bg-primary mt-7 p-3 flex flex-col items-center justify-center text-center text-white relative overflow-hidden"
+      className="h-170 bg-primary mt-7 p-3 flex flex-col items-center justify-center text-center text-white relative overflow-hidden"
     >
       <motion.div
         className="absolute inset-0"
