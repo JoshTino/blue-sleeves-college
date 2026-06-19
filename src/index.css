@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import "tailwindcss";
+
+body, html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+
+@theme {
+      --font-donegal: "Donegal One", serif;
+      --font-inria: "Inria Sans", sans-serif;
+      --font-nunito: "Nunito", sans-serif;
+
+      --color-primary: #172a5a;
+      --color-secondary: #5087b6;
+
+      --color-lightred: rgba(237, 83, 44, 0.53);
+      --color-customred: #ED532C;
+      --color-figblue: #3880C3;
+      --color-maroon: #911111;
+      --color-gold: #f59e0b;
+}
