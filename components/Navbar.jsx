@@ -22,7 +22,7 @@ export default function Navbar() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
         >
-          <img src="images/logo.jpg" className="size-16" />
+          <img src="images/logo.jpg" className="size-14" />
         </motion.h1>
 
         <motion.div
@@ -57,7 +57,7 @@ export default function Navbar() {
           animate={{ rotate: open ? 180 : 0 }}
           transition={{ duration: 0.3 }}
         >
-          {open ? <X size={40} /> : <Menu size={40} />}
+          {open ? <X size={40} /> : <Menu size={35} />}
         </motion.button>
 
       </nav>
