@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 
 const testimonials=[
 {
-quote:"Treasure Field College transformed my child academically.",
+quote:"BLUESLEEVES College transformed my child academically.",
 name:"Mrs. Ajoke Victor",
 role:"Parent"
 },
